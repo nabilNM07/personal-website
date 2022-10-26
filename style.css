@@ -47,8 +47,9 @@ h3{
 }
 .biography-right{
     height: 300px;
-    margin-right: 50px;
+    margin-right: 70px;
     background-image: url(images/biography-bg.png);
+    padding-right: 40px;
 }
 .biography-left{
     height: 100px;
@@ -83,5 +84,59 @@ h3{
     box-shadow: 2px 2px 6px black;
     transform: scale(1.1);
 }
-
+.C{
+    position: relative;
+}
+span{
+    font-weight: bold;
+    font-size: 16px;
+}
+.pdiv{
+    position: relative;
+    height: 500px;
+    width: 1300px;
+    background-image: url(images/footer-bg.png);
+    top: 400px;
+}
+.wcs{
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    
+}
+.name{
+    position: absolute;
+    top: 120px;
+    left: 530px;
+    font-family: sans-serif;
+}
+.para{
+    position: absolute;
+    top: 220px;
+    left: 460px;
+    font-family: sans-serif;
+}
+.lam{
+    position: absolute;
+    color: white;
+    background-color: rgb(238, 18, 84);
+    border-radius: 5px;
+    top: 340px;
+    left: 420px;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 1s;
+}
+.lam:hover{
+    box-shadow: 3px 3px 9px black;
+    transform: scale(1.1);
+}
+footer{
+    color: black;
+    text-align: center;
+    position: relative;
+    top: 460px;
+    font-size: 10px;
+}
     
