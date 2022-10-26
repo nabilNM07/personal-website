@@ -1,0 +1,42 @@
+.header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 70px;
+    margin-top: 160px;
+    margin-left: 10px;
+}
+h1{
+    color: magenta;
+    font-family: 'Arvo', serif;
+}
+h3{
+    font-size: 30px;
+    width: 5px;
+    font-family: 'Avro', serif;
+}
+.header-left{
+    background-color: gray;
+    height: 300px;
+    margin-left: 50px;
+    background-image: url(images/header-bg.png);
+}
+.himage{
+    height: 500px;
+}
+.btn{
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    border: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    transition: 1s;
+}
+.btn:hover{
+    box-shadow: 2px 2px 6px black;
+    transform: scale(1.2)
+}
+.header-right{
+    height: 100px;
+    background-image: url(images/header-bg.png);
+}
+    
